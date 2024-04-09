@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+       input[type="number"]
+{
+  width: auto;
+  height: auto; 
+  border:none;
+  text-align: center;
+  height: 2rem;
+  width: 15rem;
+  border-radius: 1cm;
+  outline: none;
+    
+
+ 
+}
+
+
+input[type="email"]
+{
+  width: auto;
+  height: auto; 
+  border:none;
+  text-align: center;
+  height: 2rem;
+  width: 15rem;
+  border-radius: 1cm;
+  outline: none;
+    
+
+ 
+}
+
+.area
+{
+   width: auto;
+  height: auto; 
+  border:none;
+  text-align: center;
+  border-radius: 0.5cm;
+  outline: none;      
+}
+.hire{
+  width: 80px;
+}
+.inputneed{
+  width: 200px;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+    <div></div>
+    
+    <form action="contact_us.php" method="post" >
+      <marquee behavior="" direction="repeat" class="marqe">Naccy Supper Market</marquee>
+        <div class="container">
+        <h1><b>Contact Us</b></h1>
+        <div class="div1">
+        <div><label for="name" ><b>Name:</b> <br> <br><sub class="sub1">Add your name </sub> </label></div>
+        <div><input class="inputneed" type="text"  id="name" name="name" required><br><br></div>
+    </div>
+        <label for="email"><b>Email:</b> <br><sub class="sub1">Add your email</sub></label>
+        <input type="email"  placeholder="mail@example.com"id="email" name="email" required><br><br>
+    
+        <label for="phone" ><b>Phone:</b> <br><sub class="sub">add your phone </sub></label>
+        <input type="number" id="phone" name="phone" required><br><br>
+    
+        <label for="website" ><b>Website:</b> <br><sub class="sub1">Add your website </sub></label>
+        <input class="inputneed" type="text" placeholder="http//www.com" id="website" name="website"><br><br>
+    
+        <label for="message" class="area">Message:</label>
+        <textarea class="area"  placeholder="Write something to us"  id="message" name="message" rows="4" required></textarea><br>
+
+       <center> <input class="hire" type="submit" value="Submit">
+        <input class="hire" type="reset" value="Clrear"></center>
+
+<div><div class="social-icons" class="contact-form">
+  <a href="https://web.whatsapp.com/" class="social-icon whatsapp-icon">
+    
+    <img src="./imgs/whatsapp.svg" alt="">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://www.facebook.com/groups/shoesmanufacturing/" class="social-icon facebook-icon">
+    <img src="./imgs/facebook.svg" alt="">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.instagram.com/italianshoefactory/?hl=en" class="social-icon instagram-icon">
+    <img src="./imgs/instagram.svg" alt="">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.youtube.com/watch?v=opYvvBHEGks" class="social-icon youtube-icon">
+    <img src="./imgs/youtube.svg" alt="">
+    <i class="fab fa-youtube"></i>
+  </a>
+  <a href="https://www.techtarget.com/whatis/definition/LinkedIn"class="social-icon linkedin-incon">
+    <img src="./imgs/linkedin.svg" alt="">
+    <i class="fab-linkedin"></i>
+  </a>
+</div>
+</div></div>
+
+    </form>
+    
+</div>
+</body>
+</html>
+

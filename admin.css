@@ -1,0 +1,384 @@
+
+
+body{
+  position:overflow;
+
+background-color: steelblue;
+}
+
+button{
+  color: yellow;
+}
+.marquee{
+  color:gold;
+}
+
+.admin{
+  background-color: black;
+  width: 400px;
+  height: 802px;
+  border: 2px solid yellow;
+  border-radius: 4px;
+  color: white;
+  margin-left: 400px;
+}
+input{
+  border: 3px solid yellow;
+  margin-left:50px ;
+  margin-top: 10px;
+
+}
+.submit{
+  float:right;
+  margin-right: 2px;
+  margin-bottom: 4px;
+  background-color: yellow;
+  border: 2px solid white;
+  font-weight: bold;
+}
+.submit:hover{
+  background-color: black;
+  border: 2px solid yellow;
+  font-weight: bold;
+  color: white;
+}
+label{
+  padding-left: 20px;
+}
+
+h1{
+text-align: center;
+font-weight: bold;
+color: yellow;
+}
+
+/*........FOR LOGIN..........*/
+
+.login{
+
+  background-color: black;
+  width: 400px;
+  height: 214px;
+  border: 2px solid yellow;
+
+  border-radius: 4px;
+  color: white;
+  margin-left: 400px;
+  margin-top: 200px;
+  padding-top: 0px;
+  
+}
+.account{
+  
+  color: yellow;
+  font-weight: bold;
+  font-size: 25;
+  text-align: center;
+}
+.submit{
+  float:right;
+  margin-right: 2px;
+  margin-bottom: 0px;
+  background-color: yellow;
+  border: 2px solid black;
+  font-weight: bold;
+  padding-bottom: -5px;
+
+}
+.submit:hover{
+  background-color: black;
+  border: 2px solid yellow;
+  font-weight: bold;
+  color: white;
+}
+label{
+  padding-left: 20px;
+}
+input{
+  border: 3px solid yellow;
+  margin-left:50px ;
+  margin-top: 10px;
+
+}
+
+/*..............Sign up ..............*/
+.Sign{
+
+  background-color: black;
+  width: 400px;
+  height: 467px;
+  border: 2px solid yellow;
+
+  border-radius: 4px;
+  color: white;
+  margin-left: 400px;
+
+}
+.create{
+  color: yellow;
+  font-weight: bold;
+  font-size: 25;
+  text-align: center;
+}
+.submit{
+  float:right;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  background-color: yellow;
+  border: 2px solid white;
+  font-weight: bold;
+}
+.submit:hover{
+  background-color: black;
+  border: 2px solid yellow;
+  font-weight: bold;
+  color: white;
+}
+label{
+  padding-left: 20px;
+}
+input{
+  border: 3px solid yellow;
+  margin-left:50px ;
+  margin-top: 10px;
+
+}
+
+/*----------------------home decolation-------------------------*/
+.container{
+  display: flex;
+  position:relative;
+}
+.worker{
+  width:400px;
+  height: 150px;
+  justify-content: center;
+  margin-top: 40px;
+margin-left: 10px;
+}
+
+.profile{
+  width: 60px;
+  height: 60px;
+  border-radius:45px;
+  position: absolute;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+p{
+  background-color: black;
+  color:yellow;
+}
+.description{
+  margin-left: 70px;
+  margin-top:15px;
+  position:relative;
+padding-top: 0px;
+margin-bottom: 0px;
+display:flex;
+padding-left: 10px;
+}
+.author{
+  margin-left: 70px;
+  margin-top: 0px;
+position:relative;
+color: yellow;
+padding-left: 10px;
+}
+.viewer{
+  margin-left: 70px;
+  position: absolute;
+  margin-top: 0px;
+  padding-left: 240px;
+}
+.border{
+  border: 2px solid yellow;
+  border-radius: 5px;
+  height: 50vh;
+  
+}
+.information{
+  border: 2px solid greenyellow;
+  height: 77px;
+  background-color:black ;
+  border-radius: 4px;
+}
+.identification{
+  color: white;
+  font-weight:bold;
+}
+
+/*------------------for all of our website--------------------------*/
+.All{
+margin-top:100px;
+margin-left:0;
+padding-top: 10px;
+position:relative;
+background-color: black;
+color: yellow;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+display: flex;
+
+
+}
+.div{
+  
+  justify-content: space-between;
+  color: rgb(20, 20, 16);
+padding-left: 5px;
+padding-right: 5px;
+
+}
+.div:hover{
+animation-play-state: running;
+}
+.All{
+  border: 2px solid ;
+  height: 100px;
+background-color: #3c549b;
+  color: black;
+  margin-right: -2px;
+  margin-bottom: -30px;
+}
+
+/*-------------------------for a link decolation---------------------*/
+
+.link{
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+}
+a{
+  text-decoration: none;
+
+}
+.more{
+  color: green;
+}
+.contact{
+  border: 2px solid greenyellow;
+  background-color:black;
+  height: 40vh;
+}
+.contimg{
+  width: 100%;
+  height: 400px;
+}
+/*--------------------animation-----------------------------*/
+@keyframes slide                                                                                                                                                                                                                                                                                                       
+ 
+{
+ from{
+transform: translateX(-300px);
+ } 
+ to {
+  transform: translateX(300px);
+ }
+}
+h1{
+  animation:slide;
+  animation-duration: 2s;
+  animation-timing-function:ease-in-out;
+  animation-delay:0s ;
+  animation-iteration-count:infinite ;
+  animation-direction:normal ;
+  transition: translateX(-150px ,150px);
+}
+
+.youth{
+  margin-top: 80px;
+  padding-top: 10px;
+  border: 3px solid red;
+  height: 200px;
+  width: 200px;
+  border-radius: 140px;
+  position:absolute;
+  color: greenyellow;
+  margin-right:-10px;
+  margin-top: 00px;
+  text-align: center;
+  margin-top: -1px;
+  margin-left: -2.5px;
+
+}
+.log{
+  margin-left:400px;
+  margin-top: 5px;
+ 
+  position:relative;
+  text-align: center;
+  background-color: black;
+  justify-content: center;
+  width: 200px;
+  height: 215px;
+  border-radius: 140px;
+  margin-right: -5px;
+  margin-bottom: 20px;
+  
+}
+.Emmerates{
+  position: absolute;
+  padding-top: 0px;
+  margin-top: 40px;
+  
+  margin-left:-40px;
+  margin-right:40px;
+
+}
+@keyframes rotate{
+  from{
+
+transform: rotate(0);
+  }
+  to{
+
+transform: rotate (360deg);
+  }
+}
+.rotate{
+  animation-name:rotate ;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+}
+margin{
+  margin-top: 200px;
+}
+/*----------------------comment for text---------------------*/
+.comment{
+  
+
+  background-color: rgb(249, 248, 248);
+  width:300px;
+  height: 80px;
+
+}
+.support{
+  margin-top: 400px;
+  position: absolute;
+  width:800px;
+  height: 300px;
+  justify-content: center;
+}
+.class{
+  height: 50vh;
+  border:2px solid greenyellow;
+  background-color: rgb(131, 131, 131);
+  width: 600px;
+  justify-content: center;
+  margin-left: 350px;
+  margin-top: 30px;
+}
+.request{
+  float:right;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-right: 2px;
+}
